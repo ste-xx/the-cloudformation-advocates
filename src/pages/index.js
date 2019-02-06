@@ -49,10 +49,14 @@ const IndexPage = ({
   <Layout>
     <Wrapper>
       <Hero>
-        <h1>Hi.</h1>
+        <h1>The cloudformation advocates</h1>
         <p>
-          I&apos;m John Doe, a Senior UX Developer with five years of industry experience, specializing in developing
-          React apps with the best UX users can get.
+          are a bunch<a href="https://www.google.de">*</a> of developer which use <a href="https://aws.amazon.com/cloudformation/">CloudFormation</a> on a regular basis.
+          We share our insights, ideas and sufferings in this blog, which includes ready-to-use-stuff, like templates or custom resources, rants and many more.
+          <br></br>
+          <br></br>
+          By then <br></br>
+          - your cf-advocates 
         </p>
         <Link to="/contact">
           <Button big>

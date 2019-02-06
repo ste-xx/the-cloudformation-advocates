@@ -6,12 +6,14 @@ categories:
   - CustomResources
 ---
 
-This year, AWS introduce (AWS Lambda Layer)[https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html]. 
+This year, AWS introduce [AWS Lambda Layer][1]. 
 Layers are great to create a shared runtime.
-CustomResources Lambda expecting a specialisd flow.
-They must return a state, otherwise your customresources blocks your stack for at least one hour, which is a pain in the ass.
+With [AWS Lambda-backed Custom Resources][2]
+exists the possibility to extend cloudformation templates, with own cloudformation functions.
+These Lambda function required a specialisd flow.
+They *must* return a state, otherwise your customresources blocks your stack for at least one hour, which is a pain in the ass.
 
-## The idea of a FailSafe Runtime:
+## The idea of a FailSafe Runtime
 Todo: Graphic: -> Runtimelib which is failsafe -> calls inner block
 
 All sources can be found here: TODO: github link to the-cloudformation-advocates
@@ -23,3 +25,6 @@ Living examples:
 ## Why not node
 - Todo
 
+
+[1]: https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html
+[2]: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-custom-resources.html
