@@ -49,7 +49,7 @@ const IndexPage = ({
   <Layout>
     <Wrapper>
       <Hero>
-        <h1>The cloudformation advocates</h1>
+        <h1>The CloudFormation Advocates</h1>
         <p>
           are a bunch<a href="https://github.com/orgs/the-cloudformation-advocates/people">*</a> of developer which use <a href="https://aws.amazon.com/cloudformation/">CloudFormation</a> on a regular basis.
           We share our insights, ideas and sufferings in this blog, which includes ready-to-use-stuff, like templates or custom resources, rants and many more.
