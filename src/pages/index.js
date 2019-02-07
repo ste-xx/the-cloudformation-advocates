@@ -51,7 +51,7 @@ const IndexPage = ({
       <Hero>
         <h1>The cloudformation advocates</h1>
         <p>
-          are a bunch<a href="https://the-cloudformation-advocates/developers">*</a> of developer which use <a href="https://aws.amazon.com/cloudformation/">CloudFormation</a> on a regular basis.
+          are a bunch<a href="https://github.com/orgs/the-cloudformation-advocates/people">*</a> of developer which use <a href="https://aws.amazon.com/cloudformation/">CloudFormation</a> on a regular basis.
           We share our insights, ideas and sufferings in this blog, which includes ready-to-use-stuff, like templates or custom resources, rants and many more.
           Our content, including this blog, can be found <a href="https://github.com/the-cloudformation-advocates">here</a>.
           <br></br>
